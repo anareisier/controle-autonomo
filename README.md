@@ -133,7 +133,7 @@ Nessa API é possível cadastrar produtos (estoque) e emitir pedidos (vendas). P
 @desc Estornar uma venda 
 @access Private 
 @endpointHeroku https://controle-autonomo.herokuapp.com/venda/:id
-@endpointLocalHost http://localhost:porta/venda/:id
+@endpointLocalHost http://localhost:porta/venda/estorno/:id
 ```
 ### Vendedores
 
@@ -219,7 +219,7 @@ Nessa API é possível cadastrar produtos (estoque) e emitir pedidos (vendas). P
 Para ter o acesso na sua máquina, fazer os seguintes comandos no seu terminal:
 
 ```
-git clone https://github.com/anareisier/On9-Accenture-Projeto-Final.git
+git clone https://github.com/anareisier/controle-autonomo.git
 npm install
 npm start
 ```
